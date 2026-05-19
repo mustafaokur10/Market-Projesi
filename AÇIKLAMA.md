@@ -5,16 +5,16 @@ Bu proje, SQLite veritabann kullanarak bir market ynetim sistemi gelitirmektedir
 
 # Dosya Yaps
 
-1. veritaban.py: Veritaban balants ve tablo oluturma ilemlerini ierir.
-2. urun.py: rnlerle ilgili ilemleri ierir.
-3. kullanici.py: Kullanclarla ilgili ilemleri ierir.
-4. log.py : Log kayt ilemleri buradan gerekleir.
-5. main.py: Programn giri noktasdr.
-6. AIKLAMA.md: Proje hakknda aklamalar ve kullanm klavuzunu ierir.
+1. veritaban.py: Veritabanı baglantisi ve tablo olusturma islemlerini icerir.
+2. urun.py: urunlerle ilgili islemleri icerir.
+3. kullanici.py: Kullanicilarla ilgili islemleri icerir.
+4. log.py : Log kayit islemleri buradan gerceklesir.
+5. main.py: Programin giris noktasidir.
+6. ACIKLAMA.md: Proje hakknda aciklamalar ve kullanim kilavuzunu icerir.
 
 # Kullanm Klavuzu
 
-Program altrmak iin yukarda grdnz srada dosyalar srayla altrmanz gerekmektedir.
+Program calistirmak icin yukarda gordugunuz sirada dosyalar sirayla calistirmaniz gerekmektedir.
 
 # Veritaban Oluturma
 
@@ -23,37 +23,37 @@ proje.db adna sahip olarak bir sqlite3 tablosu oluur 3 tane tablo oluur kullancl
 
 # Kullanc lemleri
 
-- Yeni Kullanc Oluturma: `main.py` dosyasndaki menden "Yeni Kullanc Olutur" seenei ile kullanc oluturabilirsiniz.
-- Giri Yapma: Kullanc ad ve ifre ile giri yapabilir ve kullanc rolne gre admin veya misafir mensne eriebilirsiniz.
-- Aadaki menlerde yazan her ilemide yapabilirsiniz.
+- Yeni Kullanici Olusturma: `main.py` dosyasindaki menuden "Yeni Kullanici Olustur" secenegi ile kullanici olusturabilirsiniz.
+- Giris Yapma: Kullanici ad ve sifre ile giris yapabilir ve kullanici rolune gore admin veya misafir menusune erisebilirsiniz.
+- Asagidaki menulerde yazan her islemide yapabilirsiniz.
  
 # Admin Mens
 
-Admin kullanclar iin aadaki ilemler yaplabilir:
-1. rn Satn Al
-2. rn Ekle
-3. rn Sil
-4. rnleri Gster
-5. Kullanclar Gr
-6. Kullanc Ekle
-7. Kullanc Sil
-8. Log Kaytlarn Gr
+Admin kullanicilar icin asagidaki islemler yaplabilir:
+1. urun Satin Al
+2. urun Ekle
+3. urun Sil
+4. urunleri Goster
+5. Kullanicilari Gor
+6. Kullanici Ekle
+7. Kullanici Sil
+8. Log Kayitlarini Gor
 9. Hava Durumu
-10. k Yap
+10. cikis Yap11. 
 
-# Misafir Mens
+# Misafir Menusu
 
-Misafir kullanclar iin aadaki ilemler yaplabilir:
-1. rn Satn Al
-2. rn Ekle
-3. rn Sil
-4. rnleri Gster
+Misafir kullanicilar icin asagidaki islemler yapilabilir:
+1. urun Satin Al
+2. urun Ekle
+3. urun Sil
+4. urunleri Goster
 5. Hava Durumu
-6. k Yap
+6. cikis Yap
 
-# Kod Aklamalar
+# Kod Aciklamalari
 
-Her dosyada bulunan snf ve fonksiyonlar detayl yorum satrlar ile aklanmtr. Bu aklamalar, kodun ne yaptn ve nasl kullanldn anlamanza yardmc olacaktr.
+Her dosyada bulunan sinif ve fonksiyonlar detayli yorum satirlar ile aciklanmistir. Bu aciklamalar, kodun ne yaptigini ve nasil kullanildigini anlamaniza yardimci olacaktir.
 
 # OKUL NUMARASI = 202307105016
 # AD SOYAD = MUSTAFA OKUR
