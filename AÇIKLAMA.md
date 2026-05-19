@@ -1,7 +1,7 @@
 
 # Market Uygulamasi
 
-Bu proje, SQLite veritabann kullanarak bir market ynetim sistemi gelitirmektedir. Proje, kullanclarn rn satn almasna, rn eklemesine, rn silmesine, kullanc eklemesine ve kullanc silmesine olanak tanr. Ayrca admin ve misafir kullanclar iin ayr menler bulunmaktadr.
+Bu proje, SQLite veritabanini kullanarak bir market yonetim sistemi gelistirmektedir. Proje, kullancilarin urun satin almasina, urun eklemesine, urun silmesine, kullanici eklemesine ve kullanici silmesine olanak tanir. Ayrica admin ve misafir kullanicilar icin ayri menuler bulunmaktadir.
 
 # Dosya Yapisi
 
