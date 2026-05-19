@@ -5,7 +5,7 @@ Bu proje, SQLite veritabann kullanarak bir market ynetim sistemi gelitirmektedir
 
 # Dosya Yaps
 
-1. veritaban.py: Veritabanı baglantisi ve tablo olusturma islemlerini icerir.
+1. veritabani.py: Veritabanı baglantisi ve tablo olusturma islemlerini icerir.
 2. urun.py: urunlerle ilgili islemleri icerir.
 3. kullanici.py: Kullanicilarla ilgili islemleri icerir.
 4. log.py : Log kayit islemleri buradan gerceklesir.
