@@ -16,7 +16,7 @@ Bu proje, SQLite veritabanini kullanarak bir market yonetim sistemi gelistirmekt
 
 Program calistirmak icin yukarda gordugunuz sirada dosyalar sirayla calistirmaniz gerekmektedir.
 
-# Veritabani Oluturma
+# Veritabani Olusturma
 
 Program altinda, `veritabani.py` dosyasindaki `Veritabani` snf kullanilarak veritabani ve tablolar olusturulur.
 proje.db adina sahip olarak bir sqlite3 tablosu olusur 3 tane tablo olusur kullanicilar loglar ve urunler isminde.
