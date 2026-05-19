@@ -18,8 +18,8 @@ Program calistirmak icin yukarda gordugunuz sirada dosyalar sirayla calistirmani
 
 # Veritabani Oluturma
 
-Program altnda, `veritaban.py` dosyasndaki `Veritabani` snf kullanlarak veritaban ve tablolar oluturulur.
-proje.db adna sahip olarak bir sqlite3 tablosu oluur 3 tane tablo oluur kullanclar loglar ve rnler isminde.
+Program altinda, `veritabani.py` dosyasindaki `Veritabani` snf kullanilarak veritabani ve tablolar olusturulur.
+proje.db adina sahip olarak bir sqlite3 tablosu olusur 3 tane tablo olusur kullanicilar loglar ve urunler isminde.
 
 # Kullanici islemleri
 
