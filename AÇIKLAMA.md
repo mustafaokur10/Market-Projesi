@@ -39,7 +39,7 @@ Admin kullanicilar icin asagidaki islemler yaplabilir:
 7. Kullanici Sil
 8. Log Kayitlarini Gor
 9. Hava Durumu
-10. cikis Yap11. 
+10. cikis Yap
 
 # Misafir Menusu
 
