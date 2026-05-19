@@ -1,9 +1,9 @@
 
-# Market Uygulamas
+# Market Uygulamasi
 
 Bu proje, SQLite veritabann kullanarak bir market ynetim sistemi gelitirmektedir. Proje, kullanclarn rn satn almasna, rn eklemesine, rn silmesine, kullanc eklemesine ve kullanc silmesine olanak tanr. Ayrca admin ve misafir kullanclar iin ayr menler bulunmaktadr.
 
-# Dosya Yaps
+# Dosya Yapisi
 
 1. veritabani.py: Veritabanı baglantisi ve tablo olusturma islemlerini icerir.
 2. urun.py: urunlerle ilgili islemleri icerir.
@@ -12,22 +12,22 @@ Bu proje, SQLite veritabann kullanarak bir market ynetim sistemi gelitirmektedir
 5. main.py: Programin giris noktasidir.
 6. ACIKLAMA.md: Proje hakknda aciklamalar ve kullanim kilavuzunu icerir.
 
-# Kullanm Klavuzu
+# Kullanim Kilavuzu
 
 Program calistirmak icin yukarda gordugunuz sirada dosyalar sirayla calistirmaniz gerekmektedir.
 
-# Veritaban Oluturma
+# Veritabani Oluturma
 
 Program altnda, `veritaban.py` dosyasndaki `Veritabani` snf kullanlarak veritaban ve tablolar oluturulur.
 proje.db adna sahip olarak bir sqlite3 tablosu oluur 3 tane tablo oluur kullanclar loglar ve rnler isminde.
 
-# Kullanc lemleri
+# Kullanici islemleri
 
 - Yeni Kullanici Olusturma: `main.py` dosyasindaki menuden "Yeni Kullanici Olustur" secenegi ile kullanici olusturabilirsiniz.
 - Giris Yapma: Kullanici ad ve sifre ile giris yapabilir ve kullanici rolune gore admin veya misafir menusune erisebilirsiniz.
 - Asagidaki menulerde yazan her islemide yapabilirsiniz.
  
-# Admin Mens
+# Admin Menusu
 
 Admin kullanicilar icin asagidaki islemler yaplabilir:
 1. urun Satin Al
