@@ -80,7 +80,9 @@ class Admin(Kullanici): # Admin sınıfının yapıcı fonksiyon
             elif secim == '2':  # Kullanıcı 2'yi seçerse
                 ad = input("Ürün adı: ")  # Kullanıcıdan ürünün adını girmesini ister
                 fiyat = float(input("Ürün fiyatı: "))  # Kullanıcıdan ürünün fiyatını girmesini ister
-                Urun.ekle(ad, fiyat)  # Belirtilen ad ve fiyata sahip ürünü veritabanına ekler
+                urun = Urun()
+                urun.ekle(self.id, ad, fiyat)
+                 # Belirtilen ad ve fiyata sahip ürünü veritabanına ekler
             elif secim == '3':  # Kullanıcı 3'ü seçerse
                 urun_id = int(input("Silmek istediğiniz ürünün ID'si: "))  # Kullanıcıdan silmek istediği ürünün ID'sini girmesini ister
                 urun = Urun()
@@ -138,7 +140,8 @@ class Misafir(Kullanici):
             elif secim == '2': # Eğer kullanıcı 2'yi seçerse
                 ad = input("Ürün adı: ") # Eklenecek ürünün adını aldık
                 fiyat = float(input("Ürün fiyatı: ")) # Eklenecek ürünün fiyatını aldık
-                Urun.ekle(ad, fiyat) # Ürünü ekleme işlemini gerçekleştirdik
+                urun = Urun()
+                urun.ekle(self.id, ad, fiyat)
             elif secim == '3': # Eğer kullanıcı 3'ü seçerse
                 urun_id = int(input("Silmek istediğiniz ürünün ID'si: ")) # Silinecek ürünün ID'sini aldık
                 Urun.sil(urun_id) # Ürünü silme işlemini gerçekleştirdik
